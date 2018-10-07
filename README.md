@@ -21,7 +21,8 @@ This file process the following 4 jobs:
 
 1.
 
-load Atlas116 times series data,
+load Atlas116 times series data (txt format),
+
 compute the Pearson's coefficient (r) -based Functionnal connectivity Matrix.
 
 2.
@@ -31,20 +32,36 @@ Fisher's r-to-z transformation
 3.
 
 use "Wonsang You"s theory, 
+
 to Estimation of nonfractal connectivity from fMRI signals
 
 4.
 
 export subjectdata.xls
+
 export pictures.
 
 
 
 ======
-test08.m
+test06.m
 ======
-This file process the following 4 jobs:
-1.
-load subjectdata.xls produced by import2xlsONEstateV05.m
 
+This file process the following 4 jobs:
+
+1.
+
+load Atlas116 times series data (txt format),
+
+compute the Pearson's coefficient (r) -based Functionnal connectivity Matrix.
+
+2.
+
+calculate the STRENGTH of 116 nodes : "SFunctC", then transform to Z :"SFunctCZ".
+
+3.
+
+export addition tabs "SFunctC" and "SFunctCZ" in the subjectdata.xls
+
+export pixtures.
 
