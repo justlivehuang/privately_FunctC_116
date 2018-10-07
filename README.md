@@ -17,6 +17,7 @@ the step3 needs pre-load next following add-path in MATLAB:
 import2xlsONEstateV05.m
 ======
 This file process the following 4 jobs:
+
 1.
 load Atlas116 times series data,
 compute the Pearson's coefficient (r) -based Functionnal connectivity Matrix.
