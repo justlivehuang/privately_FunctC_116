@@ -5,9 +5,12 @@ for the Atlas116-based time-series data produced by REST_V1.8_130615 toolkit(Mat
 
 ====!!ATTENTION!!====
 to conduct import2xlsONEstateV05.m,
+
 the step3 needs pre-load next following add-path in MATLAB:
+
 *A. nonfractal code, by "Wonsang You".
 (https://www.researchgate.net/project/Fractal-based-analysis-of-resting-state-fMRI)
+
 *B. wmtsa-matlab-0.2.6, by officially MATLAB web.
 
 ======
