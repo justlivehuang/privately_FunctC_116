@@ -47,7 +47,7 @@ export pictures.
 test06.m
 ======
 
-This file process the following 4 jobs:
+This file process the following 3 jobs:
 
 1.
 
@@ -63,5 +63,32 @@ calculate the STRENGTH of 116 nodes : "SFunctC", then transform to Z :"SFunctCZ"
 
 export addition tabs "SFunctC" and "SFunctCZ" in the subjectdata.xls
 
-export pixtures.
+export pictures.
 
+
+======
+test08.m
+======
+
+This file process the following 3 jobs:
+
+1.
+
+load nonfractal functional connectivity data from subjectdata.xls file(xls format),
+
+2.
+
+calculate the STRENGTH of 116 nodes : "Strength_NFractalC", then transform to Z :"Strength_Z_NFractalC".
+
+3.
+
+export addition tabs "Strength_NFractalC" and "Strength_Z_NFractalC" in the subjectdata.xls
+
+export pictures.
+
+
+======
+EDGEdensityV0123.m
+======
+
+This file involved small-world calculation.
