@@ -4,6 +4,7 @@ This is the self-use MATLAB code,
 for the Atlas116-based time-series data produced by REST_V1.8_130615 toolkit(Matlab).
 
 ====!!ATTENTION!!====
+
 to conduct import2xlsONEstateV05.m,
 
 the step3 needs pre-load next following add-path in MATLAB:
@@ -19,17 +20,21 @@ import2xlsONEstateV05.m
 This file process the following 4 jobs:
 
 1.
+
 load Atlas116 times series data,
 compute the Pearson's coefficient (r) -based Functionnal connectivity Matrix.
 
 2.
+
 Fisher's r-to-z transformation
 
 3.
+
 use "Wonsang You"s theory, 
 to Estimation of nonfractal connectivity from fMRI signals
 
 4.
+
 export subjectdata.xls
 export pictures.
 
